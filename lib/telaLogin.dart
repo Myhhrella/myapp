@@ -36,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
 
     final usuario = Provider.of<UserProvider>(context, listen: false).usuario;
     if (usuario != null) {
-      await SharedPrefs().setUserStatus(true); // ✅ marca como logado
+      await SharedPrefs().setUserStatus(true);
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (_) => const UserPage()),

@@ -67,7 +67,6 @@ class UserPage extends StatelessWidget {
           cardGerenciamento('Gerenciamento da conta', usuario.imagem),
           cardGerenciamento('Configurações', usuario.imagem),
 
-          // 🔴 Botão de sair abaixo de Configurações
           GestureDetector(
             onTap: () async {
               await SharedPrefs().setUserStatus(false);

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "João",
+      "cpf": "123.456.789-00",
+      "email": "joao@gmail.com",
+      "numero": "99999-9999",
+      "senha": "123456",
+      "imagem": "https://api.dicebear.com/9.x/dylan/svg?seed=joao"
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "cpf": "987.654.321-00",
+      "email": "maria@gmail.com",
+      "numero": "88888-8888",
+      "senha": "senha123",
+      "imagem": "https://api.dicebear.com/9.x/dylan/svg?seed=maria"
+    }
+  ]
+}
